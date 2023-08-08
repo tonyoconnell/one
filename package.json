@@ -17,5 +17,8 @@
     "canvas-confetti": "^1.6.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "daisyui": "^3.5.1"
   }
 }
