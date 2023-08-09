@@ -10,13 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.10.3",
-    "tailwindcss": "^3.3.3",
     "@astrojs/tailwind": "^4.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27",
     "@types/canvas-confetti": "^1.6.0",
-    "canvas-confetti": "^1.6.0"
+    "astro": "^2.10.3",
+    "autoprefixer": "^10.4.14",
+    "canvas-confetti": "^1.6.0",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
     "daisyui": "^3.5.1"
