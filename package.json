@@ -6,19 +6,27 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "wrangler pages dev ./dist",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^4.0.0",
-    "@types/canvas-confetti": "^1.6.0",
     "astro": "^2.10.3",
+    "tailwindcss": "^3.3.3",
+    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/preact": "^2.2.1",
+    "preact": "^10.16.0",
+    "stripe": "^12.14.0",
     "autoprefixer": "^10.4.14",
+    "@types/canvas-confetti": "^1.6.0",
     "canvas-confetti": "^1.6.0",
     "postcss": "^8.4.27",
-    "tailwindcss": "^3.3.3"
+    "@astrojs/cloudflare": "^6.6.2"
   },
   "devDependencies": {
-    "daisyui": "^3.5.1"
+    "daisyui": "^3.5.1",
+    "prettier": "^3.0.0",
+    "prettier-plugin-astro": "^0.11.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "wrangler": "^3.3.0"
   }
 }
