@@ -4,12 +4,15 @@ const description = "ONE";
 const keywords = "blocks";
 const category = "Build";
 import Layout from "@layouts/layout.astro";
+import Drawer from "@sections/drawer.astro";
+import Switch from "@blocks/switch.astro";
 import Button from "@blocks/button.astro";
 import Accordian from "@blocks/accordian.astro";
 import Avatar from "@blocks/avatar.astro";
 ---
-
+<Drawer />
 <Layout title={title}>
+  <Switch />
   <Button>Tailwind Button in Astro!</Button>
   <Avatar />
   <Accordian />
