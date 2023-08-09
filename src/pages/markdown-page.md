@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Blog.astro
+layout: ../layouts/blog.astro
 title: 'Markdown + Tailwind'
 author: 'Anthony'
 

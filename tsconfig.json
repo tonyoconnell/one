@@ -1,3 +1,35 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "baseUrl": "src",
+    "paths": {
+      "@library/*": [
+        "library/*"
+      ],
+      "@sections/*": [
+        "sections/*"
+      ],
+      "@blocks/*": [
+        "blocks/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@settings/*": [
+        "settings/*"
+      ], 
+    }
+  }
 }
