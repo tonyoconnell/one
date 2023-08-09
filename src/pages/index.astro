@@ -1,14 +1,16 @@
 ---
-import Layout from '../layouts/layout.astro';
-const title="ONE"
-const description="ONE"
-const keywords="AI"
-import Button from '../blocks/button.astro';
-
-
+const title = "ONE";
+const description = "ONE";
+const keywords = "AI";
+const category = "Home";
+import Layout from "@layouts/layout.astro";
+import Button from "@blocks/button.astro";
 ---
+
 <Layout title={title}>
-			<Button>Tailwind Button in Astro!</Button>
-			<a class="btn" href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
+	<h2>Button</h2>
+  <Button>Tailwind Button in Astro!</Button>
+  <div class="h2"></div>
+    <a class="btn" href="/blocks">Blocks</a>
+  <a class="btn" href="/markdown">Markdown Page</a>
 </Layout>
-		
