@@ -1,6 +1,6 @@
 ---
 const title = "ONE";
-const description = "Make The World Yours. Congratulations! You have finally found a home for your data. Keep your enterprise and personal information secure. ONE injests text, audio, video, conversations, web pages, tracking events, products, conversations and APIs. Capture new knowledge accurately. In realtime. Store everything neatly in vectors, rows, columns and graphs.Then make it available to customers, staff and stakeholders. Forge a deep connection by acting on a profound insight of your customers, staff and stakeholders. Act in realtime to bring customers from an ad to a sale ... staff from ideas to achievement, and help each individual achieve their goals, safely. Brand everything as your own, in compliance. Emplower and inspire ... your stakeholders and customers with conversations that convert. Get started today, before it's too late.";
+const description = "Make The World Yours. Sell  products, services and ideas freely. ONE is free and open software (MIT Licensed). You are free  to brand and resell ONE under your own brand. ONE is the fastest way to connect to your customers. And you can host it for free on Cloudflare, Vercel, Netlify or another modern web host. There is no faster way for enterprises and individuals to connect to your customers. If you are and knowledge that you can brand as your own. Capture new knowledge accurately. ONE injests text, audio, video, conversations, pages, events, products, conversations and APIs as vectors, ready for your AI to chat with. You now have 400 connections to the  In realtime. Store everything neatly in vectors, rows, columns and graphs.Then make it available to customers, staff and stakeholders. Forge a deep connection by acting on a profound insight of your customers, staff and stakeholders. Act in realtime to bring customers from an ad to a sale ... staff from ideas to achievement, and help each individual achieve their goals, safely. Brand everything as your own, in compliance. Emplower and inspire ... your stakeholders and customers with conversations that convert. Get started today, before it's too late.";
 const keywords = "AI.";
 const relatedto = "creator, consumer, partner, helper"
 const category = "Home";
@@ -38,6 +38,29 @@ products = [
 ---
 <Layout title={title}>
   <Header />
+  <div class="carousel rounded-box">
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" />
+  </div> 
+  <div class="carousel-item">
+    <img src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" />
+  </div>
+</div>
   <Hero />
       <div class="container mx-auto px-20">
   {products.map((product) => <Button product={product} client:load />)}
