@@ -1,43 +1,36 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    extend: {
-      colors: {
-        white: "#fff",
-        primary: "#333",
-        black: "#000",
-        gray: "#222",
-      },
-      fontFamily: {
-        "text-regular-normal": "Roboto",
-      },
-    },
-    fontSize: {
-      xs: "0.75rem",
-      "3xs": "0.63rem",
-      base: "1rem",
-      lg: "1.13rem",
-      "29xl": "3rem",
-      "11xl": "1.88rem",
-      "5xl": "1.5rem",
-      xl: "1.25rem",
-      "13xl": "2rem",
-      "37xl": "3.5rem",
-    },
-    screens: {
-      lg: {
-        max: "1200px",
-      },
-      md: {
-        max: "960px",
-      },
-      sm: {
-        max: "420px",
-      },
-    },
+    extend: {},
   },
-  corePlugins: {
-    preflight: false,
+  plugins: [require("daisyui")],
+  // daisyUI config (optional - here are the default values)
+  daisyui: {
+    themes: [
+      {
+        ONE: {
+          primary: "#1c1917",
+
+          secondary: "#312e81",
+
+          accent: "#365314",
+
+          neutral: "red",
+
+          "base-100": "#111",
+
+          info: "#77a2f8",
+
+          success: "#21dec5",
+
+          warning: "#c17915",
+
+          error: "#f22618",
+        },
+      },
+      "dark",
+      "dracula",
+    ],
   },
 };
+
