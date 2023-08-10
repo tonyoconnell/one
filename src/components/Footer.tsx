@@ -92,7 +92,7 @@ const Footer: FunctionComponent<FooterType> = ({
 
   return (
     <div
-      className="relative bg-white w-[1368px] h-[91px] overflow-hidden flex flex-col items-center justify-start text-left text-xs text-primary font-text-medium-normal"
+      className="relative bg-white w-[1368px] h-[91px] overflow-hidden flex flex-col items-center justify-start text-left text-xs text-primary font-text-regular-normal"
       style={footerStyle}
     >
       <div

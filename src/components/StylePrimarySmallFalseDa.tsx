@@ -74,7 +74,7 @@ const StylePrimarySmallFalseDa: FunctionComponent<
 
   return (
     <div
-      className="relative bg-primary flex flex-row py-3 px-6 items-center justify-center text-left text-base text-white font-text-medium-normal border-[1px] border-solid border-primary"
+      className="relative bg-primary flex flex-row py-3 px-6 items-center justify-center text-left text-base text-white font-text-regular-normal border-[1px] border-solid border-primary"
       style={stylePrimarySmallFalseDaStyle}
       onClick={onButton1Click}
     >

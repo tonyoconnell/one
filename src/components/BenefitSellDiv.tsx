@@ -3,7 +3,7 @@ import SellFasterContainer from "./SellFasterContainer";
 
 const BenefitSellDiv: FunctionComponent = () => {
   return (
-    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] bg-[url(/public/benefitsell@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[1rem] text-primary font-text-medium-normal sm:py-[1.88rem] sm:px-[0.63rem] sm:box-border">
+    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] bg-[url(/public/benefitsell@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[1rem] text-primary font-text-regular-normal sm:py-[1.88rem] sm:px-[0.63rem] sm:box-border">
       <img
         className="relative w-[25rem] h-[25rem] object-cover md:hidden"
         alt=""

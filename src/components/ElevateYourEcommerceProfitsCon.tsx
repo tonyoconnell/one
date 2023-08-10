@@ -7,7 +7,7 @@ const ElevateYourEcommerceProfitsCon: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-center bg-[url(/public/calltoaction@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[3rem] text-primary font-text-medium-normal">
+    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-center bg-[url(/public/calltoaction@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[3rem] text-primary font-text-regular-normal">
       <div className="flex-1 flex flex-col items-center justify-start gap-[1.5rem]">
         <div className="self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
           <h1 className="m-0 self-stretch relative text-[inherit] leading-[120%] font-bold font-inherit md:text-[1.88rem]">

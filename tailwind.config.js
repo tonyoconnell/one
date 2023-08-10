@@ -5,12 +5,12 @@ module.exports = {
     extend: {
       colors: {
         white: "#fff",
-        gray: "#222",
-        black: "#000",
         primary: "#333",
+        black: "#000",
+        gray: "#222",
       },
       fontFamily: {
-        "text-medium-normal": "Roboto",
+        "text-regular-normal": "Roboto",
       },
     },
     fontSize: {

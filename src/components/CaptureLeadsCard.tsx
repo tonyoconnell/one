@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const CaptureLeadsCard: FunctionComponent = () => {
   return (
-    <div className="self-stretch bg-white overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] text-center text-[1rem] text-primary font-text-medium-normal sm:py-[1.88rem] sm:px-[0.63rem] sm:box-border">
+    <div className="self-stretch bg-white overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] text-center text-[1rem] text-primary font-text-regular-normal sm:py-[1.88rem] sm:px-[0.63rem] sm:box-border">
       <div className="flex-1 flex flex-col items-start justify-start">
         <div className="self-stretch flex flex-col items-start justify-start gap-[2rem]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[1rem]">

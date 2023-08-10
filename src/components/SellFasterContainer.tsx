@@ -12,7 +12,7 @@ const SellFasterContainer: FunctionComponent<SellFasterContainerType> = ({
   tagline,
 }) => {
   return (
-    <div className="self-stretch flex flex-col items-start justify-start gap-[1rem] text-center text-[1rem] text-primary font-text-medium-normal">
+    <div className="self-stretch flex flex-col items-start justify-start gap-[1rem] text-center text-[1rem] text-primary font-text-regular-normal">
       {!tagline && (
         <div className="relative leading-[150%] font-semibold hidden">
           Tagline
