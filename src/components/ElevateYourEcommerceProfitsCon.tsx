@@ -2,12 +2,12 @@ import { FunctionComponent, useCallback } from "react";
 import StylePrimarySmallFalseDa from "./StylePrimarySmallFalseDa";
 
 const ElevateYourEcommerceProfitsCon: FunctionComponent = () => {
-  const onButton3Click = useCallback(() => {
+  const onButtonClick = useCallback(() => {
     window.location.href = "https://app.one.ie/register";
   }, []);
 
   return (
-    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-center bg-[url(/public/calltoaction@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[3rem] text-primary font-text-regular-normal">
+    <div className="self-stretch overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-center bg-[url(/public/calltoaction@3x.png)] bg-cover bg-no-repeat bg-[top] text-center text-[3rem] text-primary font-text-medium-normal">
       <div className="flex-1 flex flex-col items-center justify-start gap-[1.5rem]">
         <div className="self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
           <h1 className="m-0 self-stretch relative text-[inherit] leading-[120%] font-bold font-inherit md:text-[1.88rem]">
@@ -30,7 +30,7 @@ const ElevateYourEcommerceProfitsCon: FunctionComponent = () => {
             buttonDisplay="inline-block"
             buttonColor="#fff"
             buttonFontSize="1rem"
-            onButton1Click={onButton3Click}
+            onButton1Click={onButtonClick}
           />
         </div>
       </div>

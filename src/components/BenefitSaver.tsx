@@ -3,7 +3,7 @@ import SellFasterContainer from "./SellFasterContainer";
 
 const BenefitSaver: FunctionComponent = () => {
   return (
-    <div className="self-stretch bg-white overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] text-left text-[1rem] text-primary font-text-regular-normal sm:pl-[0.63rem] sm:pr-[0.63rem] sm:box-border">
+    <div className="self-stretch bg-white overflow-hidden flex flex-row py-[7rem] px-[4rem] items-center justify-start gap-[5rem] text-left text-[1rem] text-primary font-text-medium-normal sm:pl-[0.63rem] sm:pr-[0.63rem] sm:box-border">
       <div className="flex-1 flex flex-col items-start justify-start">
         <div className="self-stretch flex flex-col items-start justify-start gap-[2rem]">
           <SellFasterContainer

@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 const EcommerceIntegrationsCard: FunctionComponent = () => {
   return (
     <div
-      className="self-stretch bg-gray overflow-hidden flex flex-col py-[7rem] pr-[4rem] pl-[0.63rem] items-center justify-start gap-[5rem] text-center text-[1rem] text-primary font-text-regular-normal md:pl-[5rem] md:pr-[5rem] md:box-border sm:pl-[0.63rem] sm:pr-[0.63rem] sm:box-border"
+      className="self-stretch bg-gray overflow-hidden flex flex-col py-[7rem] pr-[4rem] pl-[0.63rem] items-center justify-start gap-[5rem] text-center text-[1rem] text-primary font-text-medium-normal md:pl-[5rem] md:pr-[5rem] md:box-border sm:pl-[0.63rem] sm:pr-[0.63rem] sm:box-border"
       id="EcommerceIntegrations"
     >
       <div className="self-stretch flex flex-col items-center justify-start gap-[1rem]">
