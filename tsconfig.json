@@ -5,33 +5,16 @@
     "jsx": "react",
     "baseUrl": "src",
     "paths": {
-      "@library/*": [
-        "library/*"
-      ],
-      "@sections/*": [
-        "sections/*"
-      ],
-      "@blocks/*": [
-        "blocks/*"
-      ],
-      "@layouts/*": [
-        "layouts/*"
-      ],
-      "@assets/*": [
-        "assets/*"
-      ],
-      "@pages/*": [
-        "pages/*"
-      ],
-      "@styles/*": [
-        "styles/*"
-      ],
-            "@components/*": [
-        "components/*"
-            ],
-      "@settings/*": [
-        "settings/*"
-      ], 
+      "@library/*": ["library/*"],
+      "@sections/*": ["sections/*"],
+      "@blocks/*": ["blocks/*"],
+      "@layouts/*": ["layouts/*"],
+      "@assets/*": ["assets/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@components/*": ["components/*"],
+      "@figma/*": ["figma/*"],
+      "@settings/*": ["settings/*"]
     }
   }
 }
