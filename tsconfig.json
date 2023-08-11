@@ -14,6 +14,7 @@
       "@styles/*": ["styles/*"],
       "@components/*": ["components/*"],
       "@figma/*": ["figma/*"],
+      "@utils/*": ["utils/*"],
       "@settings/*": ["settings/*"]
     }
   }
