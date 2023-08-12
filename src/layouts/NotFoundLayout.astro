@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "./BaseLayout.astro";
+import Layout from "@layouts/shop-layout.astro";
 
 export interface Props {
   title?: string;
@@ -13,7 +13,6 @@ const defaultTitle = "Page not found";
 const { title = defaultTitle, message = defaultTitle } = Astro.props as Props;
 ---
 
-<BaseLayout title={title}>
   <div class="container grid justify-center py-44 text-center">
     <span class="text-6xl font-bold text-emerald-900">404</span>
     <h1 class="mt-4 text-xl">{message}</h1>
@@ -25,4 +24,4 @@ const { title = defaultTitle, message = defaultTitle } = Astro.props as Props;
       <span aria-hidden="true"> &rarr;</span>
     </a>
   </div>
-</BaseLayout>
+</>
