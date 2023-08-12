@@ -15,6 +15,8 @@
       "@components/*": ["components/*"],
       "@figma/*": ["figma/*"],
       "@utils/*": ["utils/*"],
+      "@stores/*": ["stores/*"],
+      "@scripts/*": ["scripts/*"],
       "@settings/*": ["settings/*"]
     }
   }
