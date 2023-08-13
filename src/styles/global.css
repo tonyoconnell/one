@@ -11,35 +11,6 @@
     @apply flex min-h-screen flex-col;
   }
 
- :root {
-  --color-default: white;
-}
-@media (prefers-color-scheme: dark){
-	:root{
-		--color-default: #252b30;
-	}
-}
-[data-theme='dark'] {
-  --color-default: #252b30;
-  --background-primary: url("/images/backgrounds/brilliant.png");
-
-}
-[data-theme='ONE'] {
-  --color-default: red;
-  --background-primary: url("/images/backgrounds/backd.png");
-}
-[data-theme='TWO'] {
-  --color-default: white;
-  --background-primary: url("/images/192.png");
-}
-
-body {
-	background-color: var(--color-default);
-  background-image: var(--background-primary);
-
-}
-
-
   main {
     @apply flex-1;
   }

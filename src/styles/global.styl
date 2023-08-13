@@ -1,0 +1,50 @@
+primary = white
+secondary = #1D3963
+tertirary = #394E32
+primary-font = white
+secondary-font = #1D3963
+tertirary-font = #4b5563
+primary-background = url("/dark-primary-background.png")
+secondary-background = url("/brilliant.png")
+ 
+.primary 
+    color : primary
+.secondary 
+    color : secondary  
+.tertiary  
+    color : tertiary  
+.primary-background
+    url("/dark-primary-background.png")
+.secondary-background 
+    background-image url("/brilliant.png")
+    padding: 100px
+
+.warning {
+  @extend .primary;
+  color: #E2E21E;
+}
+
+[data-theme='ONE']
+  --color-default #222222
+  --background-primary url("/dark-primary-background.png")
+  --background-secondary url("/brilliant.png")
+
+[data-theme='TWO']
+  --color-default white
+  --background-primary url("/light-primary-background.png")
+  --background-secondary url("/transparent-background.png")
+
+[data-theme='synthwave']
+  --background-primary url("/transparent-background.png")
+  --background-secondary url("/transparent-background.png")
+
+body
+  background-color var(--color-default)
+  background-image var(--background-primary)
+
+.bg-base-100
+    background-color var(--color-default)
+    background-image var(--background-secondary)
+
+
+
