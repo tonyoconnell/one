@@ -9,7 +9,7 @@ export default defineConfig({
     experimental: {
    assets: true
   },
-  output: "server",
+  output: "hybrid",
   adapter: cloudflare(),
   integrations: [tailwind(), svelte(), preact()]
 });
