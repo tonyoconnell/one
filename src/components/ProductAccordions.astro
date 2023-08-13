@@ -25,7 +25,7 @@ const accordions = [
           { "border-b": index === accordions.length - 1 },
         ]}
       >
-        <summary class="flex cursor-pointer items-center justify-between py-3 px-1 font-bold text-zinc-700">
+        <summary class="flex cursor-pointer items-center justify-between py-3 px-1 font-bold">
           <div class="flex items-center gap-2">
             {accordion.icon === "truck" && (
               <svg
@@ -78,7 +78,7 @@ const accordions = [
             </svg>
           </span>
         </summary>
-        <div class="p-4 text-sm text-zinc-600">{accordion.content}</div>
+        <div class="p-4 text-sm">{accordion.content}</div>
       </details>
     ))
   }
