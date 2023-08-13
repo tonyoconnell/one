@@ -28,15 +28,18 @@ secondary-background = url("/brilliant.png")
   --color-default #222222
   --background-primary url("/dark-primary-background.png")
   --background-secondary url("/brilliant.png")
+  --logo url("/images/logos/ONE.svg")
 
 [data-theme='TWO']
   --color-default white
   --background-primary url("/light-primary-background.png")
   --background-secondary url("/transparent-background.png")
+  --logo url("/images/logos/ONE-black.svg")
 
 [data-theme='synthwave']
   --background-primary url("/transparent-background.png")
   --background-secondary url("/transparent-background.png")
+  --logo url("/images/logos/ONE.svg")
 
 body
   background-color var(--color-default)
@@ -46,5 +49,14 @@ body
     background-color var(--color-default)
     background-image var(--background-secondary)
 
+.logo {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: var(--logo) no-repeat;
+  width: 125px; /* Width of new image */
+  height: 50px; /* Height of new image */
+  padding-left: 125px; /* Equal to width of new image */
+}
 
 
