@@ -18,6 +18,9 @@ secondary-background = url("/brilliant.png")
 .secondary-background 
     background-image url("/brilliant.png")
     padding: 100px
+.primary-button 
+   background: tertirary
+   color: black
 
 .warning {
   @extend .primary;
@@ -31,7 +34,7 @@ secondary-background = url("/brilliant.png")
   --font-primary red
   --font-secondary url("/images/logos/ONE.svg")
   --font-tertiary url("/images/logos/ONE.svg")
-  --logo url("/images/logos/ONE.svg")
+  --logo url("/images/hilltribe/logo.png")
 
 [data-theme='TWO']
   --color-default white
@@ -39,10 +42,17 @@ secondary-background = url("/brilliant.png")
   --background-secondary url("/transparent-background.png")
   --logo url("/images/logos/ONE-black.svg")
 
+[data-theme='hilltribe']
+  --color-default #27372E
+  --font-primary #111111
+  --background-primary url("/dark-primary-background.png")
+  --background-secondary url("/transparent-background.png")
+  --logo url("/src/assets/images/hilltribe/logo-icon.png")
+
 [data-theme='synthwave']
   --background-primary url("/transparent-background.png")
   --background-secondary url("/transparent-background.png")
-  --logo url("/images/logos/ONE.svg")
+  --logo url("src/assets/images/hilltribe/logos/ONE.svg")
 
 body
   background-color var(--color-default)
@@ -57,10 +67,14 @@ body
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: var(--logo) no-repeat;
-  width: 125px; /* Width of new image */
+  width: 50px; /* Width of new image */
   height: 50px; /* Height of new image */
   padding-left: 125px; /* Equal to width of new image */
 }
+
+.hilltribe 
+  height 100px
+
 
 .primary-font
   color var(--primary-font)
