@@ -9,6 +9,7 @@ import Header from "@sections/header-hilltribe.astro";
 import Footer from "@sections/footer.astro";
 import Hero from "@sections/hero-hilltribe.astro";
 import Button from '@blocks/button-buy'
+import Accordian from '@blocks/accordian.astro'
 
 interface Product {
   id: number
@@ -22,7 +23,7 @@ let products: Array<Product>
 products = [
   {
     id: 0,
-    title: 'Karen Hilltribe Baag',
+    title: 'Karen Hilltribe Bag',
     description: 'Product one description',
     price: 49.99,
   },
@@ -83,6 +84,7 @@ products = [
               <li class="mb-1">Interior dividers</li>
               <li>Stainless strap loops</li>
             </ul>
+            <Accordian />
           </div>
         </div>
       </div>

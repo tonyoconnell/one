@@ -29,7 +29,7 @@ export default function Button({ product }: Props) {
   return (
     <button
       onClick={handleClick}
-      class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent primary-button px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+      class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent primary-button px-8 py-3 text-base font-medium text-white hover:bg-white focus:outline-none focus:ring-2 focus:secondary focus:ring-offset-2"
       type="submit">
       Buy
     </button>
