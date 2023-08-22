@@ -36,23 +36,33 @@ import CartIcon from '@components/CartIcon.svelte'
           <li><a href="/blank">Blank</a></li>
         </ul>
       </div>
-      <a href="/"><img class="logo" src="/images/logos/ONE.svg" /></a>
+      <a href="/"><img alt="ONE" class="logo" src="/images/logos/ONE.svg" /></a>
     </div>
 
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a href="/studio/theme">Theme</a></li>
         <li tabindex="0">
           <details>
-            <summary>Ecommerce</summary>
+            <summary>Products</summary>
             <ul class="p-2">
-              <li><a href="/buy">Stripe</a></li>
-              <li><a href="/shop">Shopify</a></li>
+              <li><a href="/buy">Strategy</a></li>
+              <li><a href="/shop">Design</a></li>
             </ul>
           </details>
         </li>
-        <li><a href="/blocks">Blocks</a></li>
-      </ul>
+        <li tabindex="0">
+          <details>
+            <summary>Solutions</summary>
+            <ul class="p-2">
+              <li><a href="/solutions/digital">Sell Digital Products</a></li>
+              <li><a href="/solutions/subscription">Sell Subscription Products</a></li>
+              <li><a href="/solutions/physical">Sell Physical Products</a></li>
+            </ul>
+          </details>
+        </li>
+        
+      <li><a href="/demo">Demo</a></li>
+     </ul>
     </div>
     <div class="navbar-end">
       <CartIcon client:load />
