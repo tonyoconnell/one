@@ -1,0 +1,30 @@
+---
+const title = "ONE Success";
+const description = "Make The World Yours.";
+const keywords = "AI";
+const relatedto = "creator, consumer, partner, helper"
+const category = "Home";
+import Layout from "@layouts/layout.astro";
+import Header from "@sections/header.astro";
+import Footer from "@sections/footer.astro";
+import Hero from "@sections/hero.astro";
+import Button from '@blocks/button-buy'
+
+import { getProducts } from "@utils/shopify";
+import ShopLayout from "@layouts/shop-layout.astro";
+import Products from "@components/Products.astro";
+import { setCache } from "@utils/cache";
+
+const headers = Astro.request.headers;
+const ip = headers.get("x-vercel-forwarded-for") || Astro.clientAddress;
+const products = await getProducts({ buyerIP: ip });
+
+setCache.short(Astro);
+
+---
+<Layout title={title}>
+  <Header />
+  <Products products={products} />
+
+    <Footer />
+</Layout>
