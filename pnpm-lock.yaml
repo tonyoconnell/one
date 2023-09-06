@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@alwaysmeticulous/recorder-loader':
+    specifier: ^2.73.0
+    version: 2.73.0
   '@astrojs/cloudflare':
     specifier: ^7.0.1
     version: 7.0.1(astro@3.0.8)
@@ -122,6 +125,10 @@ packages:
   /@alloc/quick-lru@5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  /@alwaysmeticulous/recorder-loader@2.73.0:
+    resolution: {integrity: sha512-xkZDgHsO7HM4cXKyTaVoejGsX3DY3M6ozsJgrI7AlD1/HI+3mQJ2/mpyedZefN/PfRfZdgySIVWMT6npvNHlRQ==}
+    dev: false
 
   /@ampproject/remapping@2.2.1:
     resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
